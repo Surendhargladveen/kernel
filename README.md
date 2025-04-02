@@ -1,2 +1,2 @@
 # kernel
-kernel-docs
+kernel is computer program at the core of the computer's Operating System. 
