@@ -30,7 +30,20 @@ A full kernel manages all hardware resources using **device drivers** and resolv
 
 By handling these tasks efficiently, the kernel keeps the system **stable, secure, and responsive**.
 
-**The kernel is stored on disk but runs in RAM while the system is active.**
+### **The kernel is stored on disk but runs in RAM while the system is active.**
+ 
+1. **Stored on Disk** (Before Booting)  
+   - The kernel is a program, so it is initially **stored on the disk** (hard drive or SSD).  
+
+2. **Loaded into RAM** (During Booting)  
+   - When you turn on your computer, the **bootloader** (like GRUB for Linux) loads the **kernel into RAM** because it needs to run continuously.  
+
+3. **Runs in Memory (RAM)**  
+   - Once loaded, the kernel stays in **RAM** and manages hardware, processes, memory, and input/output operations.  
+
+### **Why?**  
+- The kernel needs to be **fast and responsive**, so it must run from **RAM** instead of slow disk storage.  
+- It remains in memory **as long as the computer is on**.  
 
 
 
