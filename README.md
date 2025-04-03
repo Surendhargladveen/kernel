@@ -48,7 +48,8 @@ By handling these tasks efficiently, the kernel keeps the system **stable, secur
 - The kernel needs to be **fast and responsive**, so it must run from **RAM** instead of slow disk storage.  
 - It remains in memory **as long as the computer is on**.  
 
-# kernel is stored in a protected memory area called kernel space. Kernel space is located in a reserved portion of the system’s memory (RAM)
+kernel is stored in a protected memory area called kernel space.
+Kernel space is located in a reserved portion of the system’s memory (RAM)
 
 
 
