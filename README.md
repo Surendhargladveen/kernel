@@ -3,6 +3,9 @@ kernel is computer program at the core of the computer's Operating System that a
 It manages how programs use hardware and prevents conflicts between them, ensuring smooth operation and communication between software and hardware.
 A full kernel manages all hardware resources using **device drivers** and resolves process conflicts over these resources. It optimizes CPU, cache, file systems, and network usage. The kernel is one of the first programs loaded at startup(after the bootloader) and handles system initialization, memory, peripherals, and I/O requests, converting them into CPU instructions.
 
+![Kernel_Layout svg](https://github.com/user-attachments/assets/2421a667-d011-4115-941c-b33ee02eb3c5)
+
+
  # How kernel Communicate with Hardware and Software
 ### 1. **Device Drivers** (Hardware Control)  
    - The kernel uses **device drivers** to communicate with hardware like keyboards, printers, and storage devices.  
